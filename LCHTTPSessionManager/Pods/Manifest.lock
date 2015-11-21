@@ -1,0 +1,63 @@
+PODS:
+  - AFNetworking (2.5.4):
+    - AFNetworking/NSURLConnection (= 2.5.4)
+    - AFNetworking/NSURLSession (= 2.5.4)
+    - AFNetworking/Reachability (= 2.5.4)
+    - AFNetworking/Security (= 2.5.4)
+    - AFNetworking/Serialization (= 2.5.4)
+    - AFNetworking/UIKit (= 2.5.4)
+  - AFNetworking/NSURLConnection (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.4)
+  - AFNetworking/Security (2.5.4)
+  - AFNetworking/Serialization (2.5.4)
+  - AFNetworking/UIKit (2.5.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - Masonry (0.6.3)
+  - MBProgressHUD (0.9.1)
+  - PupaFoundation (1.1.6)
+  - YAUIKit (2.5.1):
+    - Masonry
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.5.3)
+  - MBProgressHUD (from `https://github.com/lc10915819/MBProgressHUD.git`)
+  - PupaFoundation (from `https://github.com/candyan/PupaFoundation.git`, tag `1.1.6`)
+  - YAUIKit (from `https://github.com/candyan/YAUIKit.git`, tag `2.5.1`)
+
+EXTERNAL SOURCES:
+  MBProgressHUD:
+    :git: https://github.com/lc10915819/MBProgressHUD.git
+  PupaFoundation:
+    :git: https://github.com/candyan/PupaFoundation.git
+    :tag: 1.1.6
+  YAUIKit:
+    :git: https://github.com/candyan/YAUIKit.git
+    :tag: 2.5.1
+
+CHECKOUT OPTIONS:
+  MBProgressHUD:
+    :commit: 7ffb27b9a97696b4da3e879d625b7ccc6146ccbe
+    :git: https://github.com/lc10915819/MBProgressHUD.git
+  PupaFoundation:
+    :git: https://github.com/candyan/PupaFoundation.git
+    :tag: 1.1.6
+  YAUIKit:
+    :git: https://github.com/candyan/YAUIKit.git
+    :tag: 2.5.1
+
+SPEC CHECKSUMS:
+  AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  Masonry: ff105a956abcd19a618b2028b121cb638d7a8e2f
+  MBProgressHUD: c34da5f231d7c38b8bc9d2cb08f81509d0bea7b0
+  PupaFoundation: 2c132c6f43485e7cecf3b64ea0725274e64041b1
+  YAUIKit: dd36c7d468f0b3ba86133d1801bdc56763aa71b8
+
+COCOAPODS: 0.39.0

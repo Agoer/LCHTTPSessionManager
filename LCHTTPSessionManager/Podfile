@@ -1,0 +1,8 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, "7.0"
+
+
+pod 'PupaFoundation',          :git => 'https://github.com/candyan/PupaFoundation.git', :tag => '1.1.6'
+pod 'AFNetworking',            '~> 2.5.3'
+pod 'MBProgressHUD',           :git => 'https://github.com/lc10915819/MBProgressHUD.git'
+pod 'YAUIKit',                 :git => 'https://github.com/candyan/YAUIKit.git', :tag => '2.5.1'
